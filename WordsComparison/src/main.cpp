@@ -18,11 +18,11 @@ int main()
 	comparator.addEncoder(std::shared_ptr<Encoder>(new CyrillicEncoder()));
 
 	
-	log(L"слон", L"слОн", comparator);
-	log(L"слон", L"слЕн", comparator);
-	log(L"слон", L"слОН", comparator);
-	log(L"слон", L"СЛОН", comparator);
-	log(L"слон", L"иещз", comparator);
+	log(L"СЃР»РѕРЅ", L"СЃР»РћРЅ", comparator);
+	log(L"СЃР»РѕРЅ", L"СЃР»Р•РЅ", comparator);
+	log(L"СЃР»РѕРЅ", L"СЃР»РћРќ", comparator);
+	log(L"СЃР»РѕРЅ", L"РЎР›РћРќ", comparator);
+	log(L"СЃР»РѕРЅ", L"РёРµС‰Р·", comparator);
 	log(L"elephant", L"Elefant", comparator);
 
 	std::cin.get();
