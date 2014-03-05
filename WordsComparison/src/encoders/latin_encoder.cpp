@@ -42,7 +42,7 @@ std::wstring LatinEncoder::encode(const std::wstring& string)
 		int zeros = CODE_LENGTH - code.length();
 		for (int k = 0; k < zeros; k++) 
 		{
-			code += '0';  
+			code += L'0';  
 		}
 	}
 	else if (code.length() > CODE_LENGTH) 
