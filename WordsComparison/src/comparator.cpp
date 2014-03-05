@@ -16,9 +16,7 @@ float Comparator::similarityCoefficient(const std::wstring& str1,
 			similarity = (similarity + 1) / 2;
 			break;
 		}
-
 	}
-
 	return similarity;
 }
 
