@@ -22,7 +22,7 @@ int main()
 	log(L"слон", L"слОН", comparator);
 	log(L"слон", L"СЛОН", comparator);
 	log(L"слон", L"иещз", comparator);
-	log(L"elephant", L"Elefant", comparator);
+	log(L"elephant", L"Elephont", comparator);
 
 	return 0;
 }
