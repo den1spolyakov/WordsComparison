@@ -23,6 +23,8 @@ int main()
 	log(L"слон", L"СЛОН", comparator);
 	log(L"слон", L"иещз", comparator);
 	log(L"elephant", L"Elephont", comparator);
+	log(L"корова", L"карова", comparator);
+	log(L"корова", L"кырова", comparator);
 
 	return 0;
 }
