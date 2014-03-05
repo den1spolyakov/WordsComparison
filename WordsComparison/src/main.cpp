@@ -17,7 +17,6 @@ int main()
 	comparator.addEncoder(std::shared_ptr<Encoder>(new LatinEncoder()));
 	comparator.addEncoder(std::shared_ptr<Encoder>(new CyrillicEncoder()));
 
-	
 	log(L"слон", L"слОн", comparator);
 	log(L"слон", L"слЕн", comparator);
 	log(L"слон", L"слОН", comparator);
@@ -25,7 +24,6 @@ int main()
 	log(L"слон", L"иещз", comparator);
 	log(L"elephant", L"Elefant", comparator);
 
-	std::cin.get();
 	return 0;
 }
 
